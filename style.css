@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    position: relative;
+}
+
+/* Add the logo using CSS as a background */
+header::before {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-image: url('image\cgc-logo-SVG.svg'); /* Make sure to have your logo.png in the same folder */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto 15px;
+}
+
+/* Styling for header text and navigation */
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    background: #fff;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+    margin-top: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
