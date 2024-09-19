@@ -17,22 +17,13 @@ header {
     padding: 1rem 0;
     text-align: center;
     position: relative;
-}
-
-/* Add the logo using CSS as a background */
-header::before {
-    content: "";
-    display: block;
-    width: 10px;
-    height: 10px;
-    background-image: url('image\cgc-logo-SVG.svg'); /* Make sure to have your logo.png in the same folder */
-    background-size:10px;
+    background-image: url('logo.svg'); /* Set logo as background */
     background-repeat: no-repeat;
-    background-position: center;
-    margin: 0 auto 15px;
+    background-position: center top;
+    background-size: 100px 100px; /* Adjust the size of the logo */
+    padding-top: 120px; /* Push content down to make room for the logo */
 }
 
-/* Styling for header text and navigation */
 header h1 {
     margin-bottom: 0.5rem;
 }
