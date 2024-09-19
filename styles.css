@@ -26,7 +26,7 @@ header::before {
     width: 10px;
     height: 10px;
     background-image: url('image\cgc-logo-SVG.svg'); /* Make sure to have your logo.png in the same folder */
-    background-size: contain;
+    background-size:10px;
     background-repeat: no-repeat;
     background-position: center;
     margin: 0 auto 15px;
