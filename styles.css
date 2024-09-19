@@ -23,8 +23,8 @@ header {
 header::before {
     content: "";
     display: block;
-    width: 100px;
-    height: 100px;
+    width: 10px;
+    height: 10px;
     background-image: url('image\cgc-logo-SVG.svg'); /* Make sure to have your logo.png in the same folder */
     background-size: contain;
     background-repeat: no-repeat;
