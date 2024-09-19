@@ -8,7 +8,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
-    color: #ffffff;
+    color: #000000;
 }
 
 header {
@@ -30,7 +30,7 @@ header h1 {
 
 nav a {
     margin: 0 15px;
-    color: #fff;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -46,7 +46,7 @@ footer {
     text-align: center;
     padding: 1rem;
     background: #ffffff;
-    color: #fff;
+    color: #000000;
     margin-top: 20px;
     position: relative;
     bottom: 0;
