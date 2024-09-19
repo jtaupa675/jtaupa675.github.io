@@ -13,11 +13,11 @@ body {
 
 header {
     background: #ffffff;
-    color: #fff;
+    color: #000000;
     padding: 1rem 0;
     text-align: center;
     position: relative;
-    background-image: url('logo.svg'); /* Set logo as background */
+    background-image: url('logo.png'); /* Set logo as background */
     background-repeat: no-repeat;
     background-position: center top;
     background-size: 200px 200px; /* Adjust the size of the logo */
