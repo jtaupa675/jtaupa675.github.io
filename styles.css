@@ -8,11 +8,11 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
-    color: #333;
+    color: #ffffff;
 }
 
 header {
-    background: #333;
+    background: #ffffff;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
@@ -20,7 +20,7 @@ header {
     background-image: url('logo.svg'); /* Set logo as background */
     background-repeat: no-repeat;
     background-position: center top;
-    background-size: 100px 100px; /* Adjust the size of the logo */
+    background-size: 200px 200px; /* Adjust the size of the logo */
     padding-top: 120px; /* Push content down to make room for the logo */
 }
 
@@ -45,7 +45,7 @@ main {
 footer {
     text-align: center;
     padding: 1rem;
-    background: #333;
+    background: #ffffff;
     color: #fff;
     margin-top: 20px;
     position: relative;
